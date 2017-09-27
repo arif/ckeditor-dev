@@ -24,7 +24,12 @@
 		} );
 		CKEDITOR.ui.balloonPanel.call( this, editor, definition );
 		/**
-		 * The editor for this balloon panel.
+		 * Registred menu items in inlineToolbarView
+		 * @private
+		 */
+		this.menuItems = [];
+		/**
+		 * Listeneres list for refreshing inlineToolbar.
 		 * @private
 		 */
 		this.listeners = [];
@@ -50,6 +55,15 @@
 				CKEDITOR.ui.balloonPanel.prototype.build.call( this );
 				this.parts.title.remove();
 				this.parts.close.remove();
+				var output = [],
+					index = 0;
+				for ( var menuItem in this.menuItems ) {
+					this.menuItems[ menuItem ].render( this.menu, index++ , output );
+					//this.menuItems[ menuItem ].render( this.menu, output );
+
+					//console.log( output );
+				}
+				this.parts.content.setHtml( output.join( '' ) );
 			};
 
 			/**
@@ -79,6 +93,7 @@
 					} );
 					this.listeners = [];
 				}
+				this.menuItems = [];
 			};
 
 			/**
@@ -109,6 +124,52 @@
 				this.listeners.push( editable.attachListener( editable.getDocument(), 'scroll', function() {
 					that.attach( element, false );
 				} ) );
+			};
+
+			/**
+			 * Hides the inline toolbar, detaches listeners and moves the focus back to the editable.
+			 */
+			CKEDITOR.ui.inlineToolbarView.prototype.detach = function() {
+				this._detachListeners();
+				this.hide();
+			};
+
+			/**
+			 * Adds an item from the specified definition to the editor context menu.
+			 *
+			 * @method
+			 * @param {String} name The menu item name.
+			 * @param {Object} definition The menu item definition.
+			 * @member CKEDITOR.editor
+			 */
+			CKEDITOR.ui.inlineToolbar.prototype.addMenuItem = function( name, definition ) {
+				this.menuItems[ name ] = new CKEDITOR.menuItem( this.editor, name, definition );
+				//this.menuItems[ name ] = new CKEDITOR.ui.menuButton( definition );
+			};
+
+			/**
+			 * Adds one or more items from the specified definition object to the editor context menu.
+			 *
+			 * @method
+			 * @param {Object} definitions Object where keys are used as itemName and corresponding values as definition for a {@link #addMenuItem} call.
+			 * @member CKEDITOR.editor
+			 */
+			CKEDITOR.ui.inlineToolbar.prototype.addMenuItems = function( definitions ) {
+				for ( var itemName in definitions ) {
+					this.addMenuItem( itemName, definitions[ itemName ] );
+				}
+			};
+
+			/**
+			 * Retrieves a particular menu item definition from the editor context menu.
+			 *
+			 * @method
+			 * @param {String} name The name of the desired menu item.
+			 * @returns {Object}
+			 * @member CKEDITOR.editor
+			 */
+			CKEDITOR.ui.inlineToolbar.prototype.getMenuItem = function( name ) {
+				return this.menuItems[ name ];
 			};
 		}
 	} );
