@@ -5,6 +5,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 .cke_balloon.cke_inlinetoolbar
 {
+
 	background: #fff;
 	border: 1px solid #D3D3D3;
 	background: url(images/sprites.png) repeat-x 0 -500px;
@@ -15,6 +16,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 .cke_balloon.cke_inlinetoolbar .cke_balloon_content
 {
 	min-height: 10px;
+	padding: 3px;
 }
 
 /* side: [ bottom, top ] */
