@@ -5,7 +5,12 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 .cke_balloon.cke_inlinetoolbar
 {
+<<<<<<< HEAD
 
+=======
+	position: absolute;
+	z-index: 10000;
+>>>>>>> mismerge fix
 	background: #fff;
 	border: 1px solid #D3D3D3;
 	background: url(images/sprites.png) repeat-x 0 -500px;
