@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hu', {
 	auto: 'Automatikus',
 	bgColorTitle: 'Háttérszín',
 	colors: {
-		'000': 'Fekete',
+		'000000': 'Black', // MISSING
 		'800000': 'Bordó',
 		'8B4513': 'Barna',
 		'2F4F4F': 'Sötét türkiz',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hu', {
 		F0FFFF: 'Azúr kék',
 		F0F8FF: 'Halvány kék',
 		E6E6FA: 'Lavender',
-		FFF: 'Fehér',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Erős cián',
 		'2ECC71': 'Smaragd',
 		'3498DB': 'Fényes kék',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hu', {
 		'E74C3C': 'Sápadt vörös',
 		'ECF0F1': 'Fényes ezüst',
 		'95A5A6': 'Világos szürkés cián',
-		'DDD': 'Világosszürke',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Tök',
 		'C0392B': 'Erős vörös',
 		'BDC3C7': 'Ezüst',
 		'7F8C8D': 'Szürkés cián',
-		'999': 'Sötétszürke'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'További színek...',
 	panelTitle: 'Színek',

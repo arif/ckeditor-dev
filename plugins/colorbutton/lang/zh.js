@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'zh', {
 	auto: '自動',
 	bgColorTitle: '背景顏色',
 	colors: {
-		'000': '黑色',
+		'000000': 'Black', // MISSING
 		'800000': '栗色',
 		'8B4513': '鞍褐色',
 		'2F4F4F': '暗瓦灰色',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'zh', {
 		F0FFFF: '天藍色',
 		F0F8FF: '愛麗斯蘭',
 		E6E6FA: '淺紫色',
-		FFF: '白色',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': '深青色',
 		'2ECC71': '翠綠色',
 		'3498DB': '亮藍色',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'zh', {
 		'E74C3C': '淡紅色',
 		'ECF0F1': '亮銀色',
 		'95A5A6': '淺灰青色',
-		'DDD': '淺灰色',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': '南瓜色',
 		'C0392B': '深紅色',
 		'BDC3C7': '銀色',
 		'7F8C8D': '灰青色',
-		'999': '深灰色'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: '更多顏色',
 	panelTitle: '顏色',

@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ar', {
 	auto: 'تلقائي',
 	bgColorTitle: 'لون الخلفية',
 	colors: {
-		'000': 'أسود',
+		'000000': 'Black', // MISSING
 		'800000': 'كستنائي',
 		'8B4513': 'بني فاتح',
 		'2F4F4F': 'رمادي أردوازي غامق',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ar', {
 		F0FFFF: 'سماوي',
 		F0F8FF: 'لبني',
 		E6E6FA: 'أرجواني',
-		FFF: 'أبيض',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ar', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Light Gray', // MISSING
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Dark Gray' // MISSING
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'ألوان إضافية...',
 	panelTitle: 'Colors',

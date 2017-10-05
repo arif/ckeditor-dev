@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'fa', {
 	auto: 'خودکار',
 	bgColorTitle: 'رنگ پس​زمینه',
 	colors: {
-		'000': 'سیاه',
+		'000000': 'Black', // MISSING
 		'800000': 'خرمایی',
 		'8B4513': 'قهوه​ای شکلاتی',
 		'2F4F4F': 'ارغوانی مایل به خاکستری',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'fa', {
 		F0FFFF: 'لاجوردی',
 		F0F8FF: 'آبی براق',
 		E6E6FA: 'بنفش کمرنگ',
-		FFF: 'سفید',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'fa', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Light Gray', // MISSING
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Dark Gray' // MISSING
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'رنگ​های بیشتر...',
 	panelTitle: 'رنگها',

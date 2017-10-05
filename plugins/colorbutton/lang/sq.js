@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sq', {
 	auto: 'Automatik',
 	bgColorTitle: 'Ngjyra e Prapavijës',
 	colors: {
-		'000': 'E zezë',
+		'000000': 'Black', // MISSING
 		'800000': 'Ngjyrë gështenjë',
 		'8B4513': 'Ngjyrë Shale Kafe',
 		'2F4F4F': 'Ngjyrë Gri të errët ardëz',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sq', {
 		F0FFFF: 'Ngjyrë Qielli',
 		F0F8FF: 'E Kaltër Alice',
 		E6E6FA: 'Ngjyrë Purpur e Zbetë',
-		FFF: 'E bardhë',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sq', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Light Gray', // MISSING
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Dark Gray' // MISSING
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Më Shumë Ngjyra...',
 	panelTitle: 'Ngjyrat',

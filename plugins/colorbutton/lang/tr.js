@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'tr', {
 	auto: 'Otomatik',
 	bgColorTitle: 'Arka Renk',
 	colors: {
-		'000': 'Siyah',
+		'000000': 'Black', // MISSING
 		'800000': 'Kestane',
 		'8B4513': 'Koyu Kahverengi',
 		'2F4F4F': 'Koyu Kurşuni Gri',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'tr', {
 		F0FFFF: 'Gök Mavisi',
 		F0F8FF: 'Reha Mavi',
 		E6E6FA: 'Eflatun',
-		FFF: 'Beyaz',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Koyu Camgöbeği',
 		'2ECC71': 'Zümrüt Yeşili',
 		'3498DB': 'Parlak Mavi',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'tr', {
 		'E74C3C': 'Soluk Kırmızı',
 		'ECF0F1': 'Parlak Gümüş',
 		'95A5A6': 'Açık Kirli Gri Camgöbeği',
-		'DDD': 'Açık Gri',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Balkabağı Turuncusu',
 		'C0392B': 'Kan Kırmızı',
 		'BDC3C7': 'Gümüş',
 		'7F8C8D': 'Kirli Gri Camgöbeği',
-		'999': 'Koyu Gri'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Diğer renkler...',
 	panelTitle: 'Renkler',

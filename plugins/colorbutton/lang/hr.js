@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hr', {
 	auto: 'Automatski',
 	bgColorTitle: 'Boja pozadine',
 	colors: {
-		'000': 'Crna',
+		'000000': 'Black', // MISSING
 		'800000': 'Kesten',
 		'8B4513': 'Smeđa',
 		'2F4F4F': 'Tamno siva',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hr', {
 		F0FFFF: 'Azurna',
 		F0F8FF: 'Alice plava',
 		E6E6FA: 'Lavanda',
-		FFF: 'Bijela',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Jaka cijan',
 		'2ECC71': 'Emerald',
 		'3498DB': 'Svijetlo plava',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'hr', {
 		'E74C3C': 'Blijedo crvena',
 		'ECF0F1': 'Sjana srebrna',
 		'95A5A6': 'Svijetlo sivkasta cijan',
-		'DDD': 'Svijetlo siva',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Tikva',
 		'C0392B': 'Jaka crvena',
 		'BDC3C7': 'Srebrna',
 		'7F8C8D': 'Sivkasto cijan',
-		'999': 'Tamno siva'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Više boja...',
 	panelTitle: 'Boje',

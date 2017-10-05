@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'km', {
 	auto: 'ស្វ័យប្រវត្តិ',
 	bgColorTitle: 'ពណ៌ផ្ទៃខាងក្រោយ',
 	colors: {
-		'000': 'ខ្មៅ',
+		'000000': 'Black', // MISSING
 		'800000': 'ត្នោត​ចាស់',
 		'8B4513': 'Saddle Brown',
 		'2F4F4F': 'Dark Slate Gray',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'km', {
 		F0FFFF: 'ផ្ទៃមេឃ',
 		F0F8FF: 'Alice Blue',
 		E6E6FA: 'ឡាវិនដឺ',
-		FFF: 'ស',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'km', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Light Gray', // MISSING
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Dark Gray' // MISSING
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'ពណ៌​ផ្សេង​ទៀត..',
 	panelTitle: 'ពណ៌',

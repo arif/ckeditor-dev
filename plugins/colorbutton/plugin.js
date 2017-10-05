@@ -269,7 +269,7 @@ CKEDITOR.plugins.add( 'colorbutton', {
 				// Convert the color from RGB to RRGGBB for better compatibility with IE and <font>. See http://dev.ckeditor.com/ticket/5676
 				if ( !parts[ 1 ] )
 					colorName = '#' + colorName.replace( /^(.)(.)(.)$/, '$1$1$2$2$3$3' );
-
+				// debugger;
 				var colorLabel = editor.lang.colorbutton.colors[ colorCode ] || colorCode;
 				output.push( '<td>' +
 					'<a class="cke_colorbox" _cke_focus=1 hidefocus=true' +

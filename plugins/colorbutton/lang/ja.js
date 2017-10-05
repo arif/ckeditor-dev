@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ja', {
 	auto: '自動',
 	bgColorTitle: '背景色',
 	colors: {
-		'000': 'Black',
+		'000000': 'Black', // MISSING
 		'800000': 'Maroon',
 		'8B4513': 'Saddle Brown',
 		'2F4F4F': 'Dark Slate Gray',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ja', {
 		F0FFFF: 'Azure',
 		F0F8FF: 'Alice Blue',
 		E6E6FA: 'Lavender',
-		FFF: 'White',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan',
 		'2ECC71': 'Emerald',
 		'3498DB': 'Bright Blue',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ja', {
 		'E74C3C': 'Pale Red',
 		'ECF0F1': 'Bright Silver',
 		'95A5A6': 'Light Grayish Cyan',
-		'DDD': 'Light Gray',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin',
 		'C0392B': 'Strong Red',
 		'BDC3C7': 'Silver',
 		'7F8C8D': 'Grayish Cyan',
-		'999': 'Dark Gray'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'その他の色...',
 	panelTitle: '色',

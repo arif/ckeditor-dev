@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ug', {
 	auto: 'ئۆزلۈكىدىن',
 	bgColorTitle: 'تەگلىك رەڭگى',
 	colors: {
-		'000': 'قارا',
+		'000000': 'Black', // MISSING
 		'800000': 'قىزغۇچ سېرىق',
 		'8B4513': 'توق قوڭۇر',
 		'2F4F4F': 'قارامتۇل يېشىل',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ug', {
 		F0FFFF: 'ئاسمان كۆكى',
 		F0F8FF: 'سۇس كۆك',
 		E6E6FA: 'سۇس بىنەپشە',
-		FFF: 'ئاق',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ug', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Light Gray', // MISSING
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Dark Gray' // MISSING
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'باشقا رەڭ',
 	panelTitle: 'رەڭ',

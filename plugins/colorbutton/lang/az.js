@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'az', {
 	auto: 'Avtomatik',
 	bgColorTitle: 'Doldurma rəngi',
 	colors: {
-		'000': 'Qara',
+		'000000': 'Black', // MISSING
 		'800000': 'Şabalıdı',
 		'8B4513': 'Açıq şabalı',
 		'2F4F4F': 'Açıq boz',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'az', {
 		F0FFFF: 'Gömgöy',
 		F0F8FF: 'Solğun göy',
 		E6E6FA: 'Lavanda',
-		FFF: 'Ağ',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Güclü mavi',
 		'2ECC71': 'Zümrüd',
 		'3498DB': 'Parlaq göy',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'az', {
 		'E74C3C': 'Solğun qırmızı',
 		'ECF0F1': 'Parlaq gümüşü',
 		'95A5A6': 'Acıq bozlu mavi',
-		'DDD': 'Acıq boz',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Balqabaqlı',
 		'C0392B': 'Güclü qırmızı',
 		'BDC3C7': 'Gümüşü',
 		'7F8C8D': 'Bozlu mavi',
-		'999': 'Tünd boz'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Digər rənglər...',
 	panelTitle: 'Rənglər',

@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ru', {
 	auto: 'Автоматически',
 	bgColorTitle: 'Цвет фона',
 	colors: {
-		'000': 'Чёрный',
+		'000000': 'Black', // MISSING
 		'800000': 'Бордовый',
 		'8B4513': 'Кожано-коричневый',
 		'2F4F4F': 'Темный синевато-серый',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ru', {
 		F0FFFF: 'Лазурный',
 		F0F8FF: 'Бледно-голубой',
 		E6E6FA: 'Лавандовый',
-		FFF: 'Белый',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Изумрудный',
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ru', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'Bright Silver', // MISSING
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'Светло-серый',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpkin', // MISSING
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silver', // MISSING
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'Тёмно-серый'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Ещё цвета...',
 	panelTitle: 'Цвета',

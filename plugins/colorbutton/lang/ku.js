@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ku', {
 	auto: 'خۆکار',
 	bgColorTitle: 'ڕەنگی پاشبنەما',
 	colors: {
-		'000': 'ڕەش',
+		'000000': 'Black', // MISSING
 		'800000': 'سۆرو ماڕوونی',
 		'8B4513': 'ماڕوونی',
 		'2F4F4F': 'سەوزی تاریك',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ku', {
 		F0FFFF: 'شینێکی زۆر ناتۆخ',
 		F0F8FF: 'شینێکی ئاسمانی زۆر ناتۆخ',
 		E6E6FA: 'شیری',
-		FFF: 'سپی',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Emerald', // MISSING
 		'3498DB': 'شینی ناتۆخ',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ku', {
 		'E74C3C': 'Pale Red', // MISSING
 		'ECF0F1': 'زیوی ڕووناک',
 		'95A5A6': 'Light Grayish Cyan', // MISSING
-		'DDD': 'ڕەساسی بریسکەدار',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'کولەکەی شیرین',
 		'C0392B': 'سوری بەهێز',
 		'BDC3C7': 'زیوی',
 		'7F8C8D': 'Grayish Cyan', // MISSING
-		'999': 'ڕەساسی تۆخ'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'ڕەنگی زیاتر...',
 	panelTitle: 'ڕەنگەکان',

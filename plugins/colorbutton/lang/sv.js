@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sv', {
 	auto: 'Automatisk',
 	bgColorTitle: 'Bakgrundsfärg',
 	colors: {
-		'000': 'Svart',
+		'000000': 'Black', // MISSING
 		'800000': 'Rödbrun',
 		'8B4513': 'Mörkbrun',
 		'2F4F4F': 'Skiffergrå',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sv', {
 		F0FFFF: 'Azurblå',
 		F0F8FF: 'Aliceblå',
 		E6E6FA: 'Lavendel',
-		FFF: 'Vit',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Stark turkos',
 		'2ECC71': 'Smaragd',
 		'3498DB': 'Klarblå',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sv', {
 		'E74C3C': 'Blekröd',
 		'ECF0F1': 'Stark silver',
 		'95A5A6': 'Ljus gråaktig turkos',
-		'DDD': 'Ljusgrå',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Pumpa',
 		'C0392B': 'Stark röd',
 		'BDC3C7': 'Silver',
 		'7F8C8D': 'Gråaktig turkos',
-		'999': 'Mörkgrå'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Fler färger...',
 	panelTitle: 'Färger',

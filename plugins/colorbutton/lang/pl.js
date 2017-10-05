@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'pl', {
 	auto: 'Automatycznie',
 	bgColorTitle: 'Kolor tła',
 	colors: {
-		'000': 'Czarny',
+		'000000': 'Black', // MISSING
 		'800000': 'Kasztanowy',
 		'8B4513': 'Czekoladowy',
 		'2F4F4F': 'Ciemnografitowy',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'pl', {
 		F0FFFF: 'Jasnolazurowy',
 		F0F8FF: 'Jasnobłękitny',
 		E6E6FA: 'Lawendowy',
-		FFF: 'Biały',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Cyjan',
 		'2ECC71': 'Szmaragdowy',
 		'3498DB': 'Jasnoniebieski',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'pl', {
 		'E74C3C': 'Bladoczerwony',
 		'ECF0F1': 'Jasnosrebrny',
 		'95A5A6': 'Szarocyjanowy',
-		'DDD': 'Jasnoszary',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Dyniowy',
 		'C0392B': 'Ciemnoczerwony',
 		'BDC3C7': 'Srebrny',
 		'7F8C8D': 'Szarawy cyjan',
-		'999': 'Ciemnoszary'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Więcej kolorów...',
 	panelTitle: 'Kolory',

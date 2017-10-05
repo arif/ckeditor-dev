@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'en', {
 	auto: 'Automatic',
 	bgColorTitle: 'Background Color',
 	colors: {
-		'000': 'Black',
+		'000000': 'Black',
 		'800000': 'Maroon',
 		'8B4513': 'Saddle Brown',
 		'2F4F4F': 'Dark Slate Gray',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'en', {
 		F0FFFF: 'Azure',
 		F0F8FF: 'Alice Blue',
 		E6E6FA: 'Lavender',
-		FFF: 'White',
+		FFFFFF: 'White',
 		'1ABC9C': 'Strong Cyan',
 		'2ECC71': 'Emerald',
 		'3498DB': 'Bright Blue',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'en', {
 		'E74C3C': 'Pale Red',
 		'ECF0F1': 'Bright Silver',
 		'95A5A6': 'Light Grayish Cyan',
-		'DDD': 'Light Gray',
+		'DDDDDD': 'Light Gray',
 		'D35400': 'Pumpkin',
 		'C0392B': 'Strong Red',
 		'BDC3C7': 'Silver',
 		'7F8C8D': 'Grayish Cyan',
-		'999': 'Dark Gray'
+		'999999': 'Dark Gray'
 	},
 	more: 'More Colors...',
 	panelTitle: 'Colors',

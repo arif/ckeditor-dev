@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'de', {
 	auto: 'Automatisch',
 	bgColorTitle: 'Hintergrundfarbe',
 	colors: {
-		'000': 'Schwarz',
+		'000000': 'Black', // MISSING
 		'800000': 'Kastanienbraun',
 		'8B4513': 'Braun',
 		'2F4F4F': 'Dunkles Schiefergrau',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'de', {
 		F0FFFF: 'Azurblau',
 		F0F8FF: 'Alice Blau',
 		E6E6FA: 'Lavendel',
-		FFF: 'Weiß',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Strong Cyan', // MISSING
 		'2ECC71': 'Smaragdgrün',
 		'3498DB': 'Bright Blue', // MISSING
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'de', {
 		'E74C3C': 'Blassrot',
 		'ECF0F1': 'Glänzendes Silber',
 		'95A5A6': 'Helles Graublau',
-		'DDD': 'Hellgrau',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Kürbisfarben',
 		'C0392B': 'Strong Red', // MISSING
 		'BDC3C7': 'Silber',
 		'7F8C8D': 'Graucyan',
-		'999': 'Dunkelgrau'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Weitere Farben...',
 	panelTitle: 'Farben',

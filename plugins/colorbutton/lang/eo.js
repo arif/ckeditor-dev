@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'eo', {
 	auto: 'Aŭtomata',
 	bgColorTitle: 'Fona Koloro',
 	colors: {
-		'000': 'Nigra',
+		'000000': 'Black', // MISSING
 		'800000': 'Kaŝtankolora',
 		'8B4513': 'Mezbruna',
 		'2F4F4F': 'Ardezgriza',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'eo', {
 		F0FFFF: 'Lazura',
 		F0F8FF: 'Aliceblua',
 		E6E6FA: 'Lavendkolora',
-		FFF: 'Blanka',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Fortverdblua',
 		'2ECC71': 'Smeraldkolora',
 		'3498DB': 'Brilblua',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'eo', {
 		'E74C3C': 'Pale Ruĝa',
 		'ECF0F1': 'Brile Arĝenta',
 		'95A5A6': 'Helgrizverdblua',
-		'DDD': 'Helgriza',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Kukurbokolora',
 		'C0392B': 'Forte ruĝa',
 		'BDC3C7': 'Arĝenta',
 		'7F8C8D': 'Grizverdblua',
-		'999': 'Malhelgriza'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Pli da Koloroj...',
 	panelTitle: 'Koloroj',

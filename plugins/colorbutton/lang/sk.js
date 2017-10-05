@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sk', {
 	auto: 'Automaticky',
 	bgColorTitle: 'Farba pozadia',
 	colors: {
-		'000': 'Čierna',
+		'000000': 'Black', // MISSING
 		'800000': 'Gaštanová',
 		'8B4513': 'Sedlová hnedá',
 		'2F4F4F': 'Tmavo bridlicovo sivá',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sk', {
 		F0FFFF: 'Azúrová',
 		F0F8FF: 'Alicovo modrá',
 		E6E6FA: 'Levanduľová',
-		FFF: 'Biela',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Silno tyrkysová',
 		'2ECC71': 'Smaragdová',
 		'3498DB': 'Svetlo modrá',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'sk', {
 		'E74C3C': 'Bledo červená',
 		'ECF0F1': 'Svetlá bronzová',
 		'95A5A6': 'Svetlá sivo-tyrkysová',
-		'DDD': 'Svetlo sivá',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Tekvicová',
 		'C0392B': 'Silno červená',
 		'BDC3C7': 'Strieborná',
 		'7F8C8D': 'Sivo tyrkysová',
-		'999': 'Tmavo sivá'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Viac farieb...',
 	panelTitle: 'Farby',

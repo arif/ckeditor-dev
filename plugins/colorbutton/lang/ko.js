@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ko', {
 	auto: '기본 색상',
 	bgColorTitle: '배경 색상',
 	colors: {
-		'000': '검정',
+		'000000': 'Black', // MISSING
 		'800000': '밤색',
 		'8B4513': '새들 브라운',
 		'2F4F4F': '다크 슬레이트 그레이',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ko', {
 		F0FFFF: '하늘색',
 		F0F8FF: '앨리스 블루',
 		E6E6FA: '라벤더',
-		FFF: '흰색',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': '진한 청록색',
 		'2ECC71': '에메랄드',
 		'3498DB': '밝은 파랑',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'ko', {
 		'E74C3C': '창백한 빨강',
 		'ECF0F1': '밝은 은색',
 		'95A5A6': '밝은 회청록',
-		'DDD': '밝은 회색',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': '호박',
 		'C0392B': '진한 빨강',
 		'BDC3C7': '은색',
 		'7F8C8D': '회청록',
-		'999': '암회색'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: '색상 선택...',
 	panelTitle: '색상',

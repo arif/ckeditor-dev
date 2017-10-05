@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'es-mx', {
 	auto: 'Automático',
 	bgColorTitle: 'Color de fondo',
 	colors: {
-		'000': 'Negro',
+		'000000': 'Black', // MISSING
 		'800000': 'Marrón',
 		'8B4513': 'Café sucio',
 		'2F4F4F': 'Gris pizarra oscuro',
@@ -45,7 +45,7 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'es-mx', {
 		F0FFFF: 'Azul celeste',
 		F0F8FF: 'Azul Alicia',
 		E6E6FA: 'Lavanda',
-		FFF: 'Blanco',
+		FFFFFF: 'White', // MISSING
 		'1ABC9C': 'Cian fuerte',
 		'2ECC71': 'Esmeralda',
 		'3498DB': 'Azul brillante',
@@ -62,12 +62,12 @@ CKEDITOR.plugins.setLang( 'colorbutton', 'es-mx', {
 		'E74C3C': 'Rojo pálido',
 		'ECF0F1': 'Plata brillante',
 		'95A5A6': 'Cian grisáceo claro',
-		'DDD': 'Gris claro',
+		'DDDDDD': 'Light Gray', // MISSING
 		'D35400': 'Calabaza',
 		'C0392B': 'Rojo fuerte',
 		'BDC3C7': 'Plata',
 		'7F8C8D': 'Cian grisáceo',
-		'999': 'Gris oscuro'
+		'999999': 'Dark Gray' // MISSING
 	},
 	more: 'Más colores...',
 	panelTitle: 'Colores',
