@@ -355,6 +355,7 @@ CKEDITOR.plugins.add( 'colorbutton', {
 /**
  * Defines the colors to be displayed in the color selectors. This is a string
  * containing hexadecimal notation for HTML colors, without the `'#'` prefix.
+ * Hexadecimal notation should be a 6-character color value.
  *
  * **Since 3.3:** A color name may optionally be defined by prefixing the entries with
  * a name and the slash character. For example, `'FontColor1/FF9900'` will be
@@ -384,8 +385,8 @@ CKEDITOR.plugins.add( 'colorbutton', {
  */
 CKEDITOR.config.colorButton_colors = '1ABC9C,2ECC71,3498DB,9B59B6,4E5F70,F1C40F,' +
 	'16A085,27AE60,2980B9,8E44AD,2C3E50,F39C12,' +
-	'E67E22,E74C3C,ECF0F1,95A5A6,DDD,FFF,' +
-	'D35400,C0392B,BDC3C7,7F8C8D,999,000';
+	'E67E22,E74C3C,ECF0F1,95A5A6,DDDDDD,FFFFFF,' +
+	'D35400,C0392B,BDC3C7,7F8C8D,999999,000000';
 
 /**
  * Stores the style definition that applies the text foreground color.
