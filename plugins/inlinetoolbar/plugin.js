@@ -23,9 +23,6 @@
 			triangleHeight: 10
 		} );
 		CKEDITOR.ui.balloonPanel.call( this, editor, definition );
-		this.listeners = [];
-	};
-
 		/**
 		 * The editor for this balloon panel.
 		 * @private

@@ -72,7 +72,7 @@
 				this.markerElement.getClientRect = sinon.stub().returns( { height: 15, width: 25, left: 129, bottom: 416.34375, right: 154, top: 401.34375 } );
 				balloonTestsTools.attachBalloon( this.inlineToolbar, this.markerElement );
 
-				balloonTestsTools.assertMoveTo( this.moveSpy, 92.5, 422 );
+				balloonTestsTools.assertMoveTo( this.moveSpy, 92.5, 432 );
 
 			},
 
@@ -81,7 +81,7 @@
 				this.markerElement.getClientRect = sinon.stub().returns( { height: 15, width: 25, left: 129, bottom: -75.65625, right: 154, top: -90.65625 } );
 				balloonTestsTools.attachBalloon( this.inlineToolbar, this.markerElement );
 
-				balloonTestsTools.assertMoveTo( this.moveSpy, 92.5, 363 );
+				balloonTestsTools.assertMoveTo( this.moveSpy, 92.5, 353 );
 			}
 		};
 	bender.test( tests );
