@@ -38,14 +38,14 @@
 	var stylesLoaded = false;
 
 	CKEDITOR.plugins.add( 'inlinetoolbar', {
-		requires: 'balloonpanel',
+		requires: 'balloonpanel,button',
 		init: function() {
 			if ( !stylesLoaded ) {
 				CKEDITOR.document.appendStyleSheet( this.path + 'skins/' + CKEDITOR.skinName + '/inlinetoolbar.css' );
 				stylesLoaded = true;
 			}
 			CKEDITOR.ui.inlineToolbarView.prototype = CKEDITOR.tools.extend( {}, CKEDITOR.ui.balloonPanel.prototype );
-			if (CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions && CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions.panel.indexOf( 'cke_inlinetoolbar' ) === -1 ) {
+			if ( CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions && CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions.panel.indexOf( 'cke_inlinetoolbar' ) === -1 ) {
 				CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions.panel = CKEDITOR.ui.inlineToolbarView.prototype.templateDefinitions.panel.replace( 'cke_balloon', 'cke_balloon cke_inlinetoolbar' );
 			}
 			/**
@@ -132,23 +132,21 @@
 			};
 
 			/**
-			 * Adds an item from the specified definition to the editor context menu.
+			 * Adds an item from the specified definition to the inline toolbar.
 			 *
 			 * @method
 			 * @param {String} name The menu item name.
 			 * @param {Object} definition The menu item definition.
-			 * @member CKEDITOR.editor
 			 */
 			CKEDITOR.ui.inlineToolbarView.prototype.addMenuItem = function( name, definition ) {
 				this.menuItems[ name ] = new CKEDITOR.ui.button( definition );
 			};
 
 			/**
-			 * Adds one or more items from the specified definition object to the editor context menu.
+			 * Adds one or more items from the specified definition object to the inline toolbar.
 			 *
 			 * @method
 			 * @param {Object} definitions Object where keys are used as itemName and corresponding values as definition for a {@link #addMenuItem} call.
-			 * @member CKEDITOR.editor
 			 */
 			CKEDITOR.ui.inlineToolbarView.prototype.addMenuItems = function( definitions ) {
 				for ( var itemName in definitions ) {
@@ -157,15 +155,27 @@
 			};
 
 			/**
-			 * Retrieves a particular menu item definition from the editor context menu.
+			 * Retrieves a particular menu item definition from the inline toolbar.
 			 *
 			 * @method
 			 * @param {String} name The name of the desired menu item.
 			 * @returns {Object}
-			 * @member CKEDITOR.editor
 			 */
 			CKEDITOR.ui.inlineToolbarView.prototype.getMenuItem = function( name ) {
 				return this.menuItems[ name ];
+			};
+
+			/**
+			 * Removes a particular menu item definition from the inline toolbar.
+			 *
+			 * @method
+			 * @param {String} name The name of the desired menu item.
+			 * @returns {Object}
+			 */
+			CKEDITOR.ui.inlineToolbarView.prototype.deleteMenuItem = function( name ) {
+				if ( this.menuItems[ name ] ) {
+					delete this.menuItems[ name ];
+				}
 			};
 		}
 	} );
